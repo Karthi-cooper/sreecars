@@ -63,7 +63,7 @@ export const CollectionItem = ({ collection }) => {
   const navigate = useNavigate();
 
   const handleViewDetails = () => {
-    navigate(`/sreecars/Product/${collection.id}`);
+    navigate(`/Product/${collection.id}`);
   };
 
   return (
