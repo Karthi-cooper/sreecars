@@ -1,0 +1,10 @@
+<script type="text/javascript">
+    // Redirect all unknown routes to the homepage
+    var redirect = '/sreecars/';
+    var currentPath = window.location.pathname;
+    var currentSearch = window.location.search;
+    if (!currentPath.startsWith(redirect)) {
+      window.location.href = redirect + currentSearch;
+    }
+  </script>
+  
